@@ -1,7 +1,8 @@
 import { Ubuntu } from "next/font/google";
 import "./globals.css";
 
-const ubuntuFont = Ubuntu({ subsets: ["latin"] });
+const ubuntuFont = Ubuntu({ subsets: ["latin"], weight: "300" });
+const ubuntuBoldedFont = Ubuntu({ subsets: ["latin"], weight: "700" });
 
 export const metadata = {
   title: "Subscribe Universe",
@@ -11,7 +12,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${ubuntuFont.className} bg-r`}>{children}</body>
+      <body className={ubuntuFont.className}>
+        {children}
+      </body>
     </html>
   );
 }
