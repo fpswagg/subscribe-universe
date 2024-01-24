@@ -1,0 +1,1 @@
+npx json-server --watch ./src/jsonDB.json --port 3301

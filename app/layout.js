@@ -1,5 +1,6 @@
 import { Ubuntu } from "next/font/google";
-import "./globals.css";
+
+import "@/app/globals.css";
 
 const ubuntuFont = Ubuntu({ subsets: ["latin"], weight: "300" });
 const ubuntuBoldedFont = Ubuntu({ subsets: ["latin"], weight: "700" });

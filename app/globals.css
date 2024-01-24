@@ -105,3 +105,22 @@ a {
     color-scheme: dark;
   }
 }
+
+button, input[type="submit"] {
+  padding: 5px 25px;
+  color: white;
+  background-color: hsl(0, 100%, 50%);
+  /* border: 1px outset hsl(0, 100%, 16%); */
+  border: 0px solid white;
+  transition: all 500ms;
+  cursor: pointer;
+}
+
+button:hover, input[type="submit"]:hover {
+  /* color: hsl(0, 100%, 35%);
+  background-color: hsl(0, 100%, 65%); */
+  /* border: 1px inset hsl(0, 100%, 10%); */
+  margin-top: 2px;
+  padding: 4px 30px;
+  /* border: 1px inset hsl(0, 100%, 16%); */
+}
