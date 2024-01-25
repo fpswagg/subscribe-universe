@@ -1,13 +1,17 @@
 import { Ubuntu } from "next/font/google";
+import { NextFont } from "next/dist/compiled/@next/font";
 
 import "@/app/globals.css";
 
-const ubuntuFont = Ubuntu({ subsets: ["latin"], weight: "300" });
-const ubuntuBoldedFont = Ubuntu({ subsets: ["latin"], weight: "700" });
+const ubuntuFont: NextFont = Ubuntu({ subsets: ["latin"], weight: "300" });
+const ubuntuBoldedFont: NextFont = Ubuntu({ subsets: ["latin"], weight: "700" });
 
 export const metadata = {
   title: "Subscribe Universe",
   description: "This a simple social média.",
+} as {
+  title: string,
+  description: string,
 };
 
 export default function RootLayout({ children }) {

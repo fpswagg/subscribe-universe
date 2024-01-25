@@ -1,8 +1,30 @@
 {
-    "users": {
-        "fpswagg": {
-            "password": "admin",
-            "pastMessages": []
+  "users": [
+    {
+      "id": "68a8",
+      "username": "fpswagg",
+      "password": "admin",
+      "pastMessages": [
+        {
+          "toID": "63b2",
+          "content": "hello",
+          "read": false,
+          "date": 1706213870531
         }
+      ]
+    },
+    {
+      "id": "63b2",
+      "username": "fpathome",
+      "password": "admin",
+      "pastMessages": [
+        {
+          "toID": "68a8",
+          "content": "hello",
+          "read": false,
+          "date": 1706210945396
+        }
+      ]
     }
+  ]
 }
